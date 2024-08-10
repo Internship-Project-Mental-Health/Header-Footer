@@ -329,3 +329,80 @@ footer a {
 .footer-social a:hover {
     background-color: #71cd14;
 }
+
+/* responsive */
+@media screen and (max-width: 1111px) {
+
+    .lower-mid,
+    .lower-right,
+    .upper-right {
+        display: none;
+        text-align: left;
+    }
+
+    .bars {
+        display: block;
+        padding: 25px 30px;
+        position: absolute;
+        right: 30px;
+        margin-right: 80px;
+        font-size: 25px;
+    }
+
+    .right-new {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .lower-header {
+        padding: 0px 20px;
+    }
+
+    .upper-left {
+        margin: 0px 60px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    .footer-area,
+    .bottom {
+        margin: 0px 50px;
+        padding: 20px 0px;
+    }
+
+    .bottom p, .footer-social{
+        padding-left: 0;
+    }
+
+    footer {
+        padding: 90px 0px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    footer {
+        padding: 50px 130px;
+    }
+
+    .footer-area {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .section,
+    .bottom {
+        margin: 0px 20px;
+        padding-top: 40px;
+        display: block;
+    }
+
+    .footer-social {
+        display: flex;
+        padding-top: 20px;
+    }
+}
+
